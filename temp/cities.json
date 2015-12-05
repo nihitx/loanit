@@ -1,0 +1,11 @@
+[
+  {
+
+    "name": "FINLAND",
+    "cities": ["HELSINKI", "VANTAA", "ESPOO"]
+  },
+  {
+    "name": "ESTONIA",
+    "cities": ["TALLIN"]
+  }
+]
