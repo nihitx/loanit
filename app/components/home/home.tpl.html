@@ -1,1 +1,21 @@
 <h1>{{ greeting }}</h1>
+<div class="container">
+
+  <div class="rows">
+
+    <div class="col-md-6">
+      <select ng-model="country" ng-options="country.name for country in countries">
+        <option value=''>SELECT COUNTRY</option>
+      </select>
+    </div>
+
+    <div class="col-md-6">
+      <select ng-model="city" ng-options="city for city in country.cities">
+        <option value=''>SELECT CITY</option>
+      </select>
+    </div>
+    
+  </div>
+
+  <div><button>Search</button></div>
+</div>
